@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="de.openms.knime.dynamicJSViewers.feature"
-      label="OpenMS JS Views"
+      label="OpenMS"
       version="1.0.0.qualifier">
 
-    <description>
-    OpenMS is an open-source software C++ library for LC/MS data management and 
-analyses. It offers an infrastructure for the development of mass 
-spectrometry related software and powerful 2D and 3D visualization.
+   <description>
+      This package was developed as part of the MODAL project and adds JavaScript
+      visualizations for mass-spectrometry data to KNIME.
+      It is intended to be used together with the KNIME OpenMS plugin.
+      OpenMS is an open-source software C++ library for LC/MS data management and 
+      analyses. It offers an infrastructure for the development of mass 
+      spectrometry related software and powerful 2D and 3D visualization.
 
-OpenMS is free software available under the three clause BSD license and runs 
-under Windows, MacOSX and Linux.
+      OpenMS is free software available under the three clause BSD license and runs 
+      under Windows, MacOSX and Linux.
+   </description>
 
-    </description>
+   <copyright>
+      Copyright Zuse Institute Berlin and Freie Universitaet Berlin 2021.
+   </copyright>
 
-    <copyright>
-    Copyright The OpenMS Team -- Eberhard Karls University Tuebingen,
-ETH Zurich, and Freie Universitaet Berlin 2002-2018.
-
-    </copyright>
-
-    <license>
-    BSD 3-Clause License
+   <license>
+      BSD 3-Clause License
 
 --------------------------------------------------------------------------
-                  OpenMS -- Open-Source Mass Spectrometry
+                  OpenMS KNIME JS Views
 --------------------------------------------------------------------------
-Copyright The OpenMS Team -- Eberhard Karls University Tuebingen,
-ETH Zurich, and Freie Universitaet Berlin 2002-2018.
+Copyright Zuse Institute Berlin and Freie Universitaet Berlin 2021.
 
 This software is released under a three-clause BSD license:
  * Redistributions of source code must retain the above copyright
@@ -51,16 +50,13 @@ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
 WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
 OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+   </license>
 
-
-    </license>
-
-	<plugin
-		id="de.openms.knime.dynamicJSViewers"
-		download-size="0"
-		install-size="0"
-		version="0.0.0"
-		unpack="false"/>
-
+   <plugin
+         id="de.openms.knime.dynamicJSViewers"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>
